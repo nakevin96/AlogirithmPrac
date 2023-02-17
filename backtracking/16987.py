@@ -15,7 +15,7 @@ def sol(idx, eggs):
         for i in range(n):
             if eggs[i] <= 0:
                 cnt += 1
-        if cnt > result
+        if cnt > result:
             result = cnt
         return
     if eggs[idx] > 0:
